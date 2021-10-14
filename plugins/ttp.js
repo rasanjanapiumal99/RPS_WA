@@ -91,9 +91,9 @@ Asena.addCommand({ pattern: 'wttp ?(.*)', fromMe: wk, dontAddCommandList: true }
         await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
       });
     };
-    await download(ttinullimage.image, '/root/WhatsAsenaDuplicated/wttp.png', async() => { 
-      ffmpeg('/root/WhatsAsenaDuplicated/wttp.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
-        ffmpeg('/root/WhatsAsenaDuplicated/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
+    await download(ttinullimage.image, '/root/RPS_WA/wttp.png', async() => { 
+      ffmpeg('/root/RPS_WA/wttp.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
+        ffmpeg('/root/RPS_WA/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
           await message.sendMessage(fs.readFileSync('st.webp'), MessageType.sticker);
         })
       })
@@ -106,9 +106,9 @@ Asena.addCommand({ pattern: 'wttp ?(.*)', fromMe: wk, dontAddCommandList: true }
         await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
       });
     };
-    await download(ttinullimage.image, '/root/WhatsAsenaDuplicated/wttp.png', async() => { 
-      ffmpeg('/root/WhatsAsenaDuplicated/wttp.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
-        ffmpeg('/root/WhatsAsenaDuplicated/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
+    await download(ttinullimage.image, '/root/RPS_WA/wttp.png', async() => { 
+      ffmpeg('/root/RPS_WA/wttp.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
+        ffmpeg('/root/RPS_WA/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
           await message.sendMessage(fs.readFileSync('st.webp'), MessageType.sticker);
         })
       })
@@ -124,9 +124,9 @@ Asena.addCommand({ pattern: 'http ?(.*)', fromMe: wk, dontAddCommandList: true }
         await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
       });
     };
-    await download(ttinullimage.image, '/root/WhatsAsenaDuplicated/http.png', async() => { 
-      ffmpeg('/root/WhatsAsenaDuplicated/http.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
-        ffmpeg('/root/WhatsAsenaDuplicated/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
+    await download(ttinullimage.image, '/root/RPS_WA/http.png', async() => { 
+      ffmpeg('/root/RPS_WA/http.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
+        ffmpeg('/root/RPS_WA/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
           await message.sendMessage(fs.readFileSync('st.webp'), MessageType.sticker);
         })
       })
@@ -139,9 +139,9 @@ Asena.addCommand({ pattern: 'http ?(.*)', fromMe: wk, dontAddCommandList: true }
         await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
       });
     };
-    await download(ttinullimage.image, '/root/WhatsAsenaDuplicated/http.png', async() => { 
-      ffmpeg('/root/WhatsAsenaDuplicated/http.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
-        ffmpeg('/root/WhatsAsenaDuplicated/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
+    await download(ttinullimage.image, '/root/RPS_WA/http.png', async() => { 
+      ffmpeg('/root/RPS_WA/http.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
+        ffmpeg('/root/RPS_WA/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
           await message.sendMessage(fs.readFileSync('st.webp'), MessageType.sticker);
         })
       })
@@ -157,9 +157,9 @@ Asena.addCommand({ pattern: 'bttp ?(.*)', fromMe: wk, dontAddCommandList: true }
         await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
       });
     };
-    await download(ttinullimage.image, '/root/WhatsAsenaDuplicated/bttp.png', async() => { 
-      ffmpeg('/root/WhatsAsenaDuplicated/bttp.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
-        ffmpeg('/root/WhatsAsenaDuplicated/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
+    await download(ttinullimage.image, '/root/RPS_WA/bttp.png', async() => { 
+      ffmpeg('/root/RPS_WA/bttp.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
+        ffmpeg('/root/RPS_WA/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
           await message.sendMessage(fs.readFileSync('st.webp'), MessageType.sticker);
         })
       })
@@ -172,9 +172,9 @@ Asena.addCommand({ pattern: 'bttp ?(.*)', fromMe: wk, dontAddCommandList: true }
         await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
       });
     };
-    await download(ttinullimage.image, '/root/WhatsAsenaDuplicated/bttp.png', async() => { 
-      ffmpeg('/root/WhatsAsenaDuplicated/bttp.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
-        ffmpeg('/root/WhatsAsenaDuplicated/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
+    await download(ttinullimage.image, '/root/RPS_WA/bttp.png', async() => { 
+      ffmpeg('/root/RPS_WA/bttp.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
+        ffmpeg('/root/RPS_WA/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
           await message.sendMessage(fs.readFileSync('st.webp'), MessageType.sticker);
         })
       })
@@ -190,9 +190,9 @@ Asena.addCommand({ pattern: 'gttp ?(.*)', fromMe: wk, dontAddCommandList: true }
         await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
       });
     };
-    await download(ttinullimage.image, '/root/WhatsAsenaDuplicated/gttp.png', async() => { 
-      ffmpeg('/root/WhatsAsenaDuplicated/gttp.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
-        ffmpeg('/root/WhatsAsenaDuplicated/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
+    await download(ttinullimage.image, '/root/RPS_WA/gttp.png', async() => { 
+      ffmpeg('/root/RPS_WA/gttp.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
+        ffmpeg('/root/RPS_WA/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
           await message.sendMessage(fs.readFileSync('st.webp'), MessageType.sticker);
         })
       })
@@ -205,9 +205,9 @@ Asena.addCommand({ pattern: 'gttp ?(.*)', fromMe: wk, dontAddCommandList: true }
         await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
       });
     };
-    await download(ttinullimage.image, '/root/WhatsAsenaDuplicated/gttp.png', async() => { 
-      ffmpeg('/root/WhatsAsenaDuplicated/gttp.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
-        ffmpeg('/root/WhatsAsenaDuplicated/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
+    await download(ttinullimage.image, '/root/RPS_WA/gttp.png', async() => { 
+      ffmpeg('/root/RPS_WA/gttp.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
+        ffmpeg('/root/RPS_WA/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
           await message.sendMessage(fs.readFileSync('st.webp'), MessageType.sticker);
         })
       })
@@ -223,9 +223,9 @@ Asena.addCommand({ pattern: 'sttp ?(.*)', fromMe: wk, dontAddCommandList: true }
         await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
       });
     };
-    await download(ttinullimage.image, '/root/WhatsAsenaDuplicated/sttp.png', async() => { 
-      ffmpeg('/root/WhatsAsenaDuplicated/sttp.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
-        ffmpeg('/root/WhatsAsenaDuplicated/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
+    await download(ttinullimage.image, '/root/RPS_WA/sttp.png', async() => { 
+      ffmpeg('/root/RPS_WA/sttp.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
+        ffmpeg('/root/RPS_WA/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
           await message.sendMessage(fs.readFileSync('st.webp'), MessageType.sticker);
         })
       })
@@ -238,9 +238,9 @@ Asena.addCommand({ pattern: 'sttp ?(.*)', fromMe: wk, dontAddCommandList: true }
         await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
       });
     };
-    await download(ttinullimage.image, '/root/WhatsAsenaDuplicated/sttp.png', async() => { 
-      ffmpeg('/root/WhatsAsenaDuplicated/sttp.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
-        ffmpeg('/root/WhatsAsenaDuplicated/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
+    await download(ttinullimage.image, '/root/RPS_WA/sttp.png', async() => { 
+      ffmpeg('/root/RPS_WA/sttp.png').videoFilters('chromakey=white').save('af.png').on('end', async () => {
+        ffmpeg('/root/RPS_WA/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
           await message.sendMessage(fs.readFileSync('st.webp'), MessageType.sticker);
         })
       })
@@ -256,9 +256,9 @@ Asena.addCommand({ pattern: 'ettp ?(.*)', fromMe: wk, dontAddCommandList: true }
         await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
       });
     };
-    await download(ttinullimage.image, '/root/WhatsAsenaDuplicated/ettp.png', async() => { 
-      ffmpeg('/root/WhatsAsenaDuplicated/ettp.png').videoFilters('chromakey=#FFFFFF:similarity=0.01').save('af.png').on('end', async () => {
-        ffmpeg('/root/WhatsAsenaDuplicated/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
+    await download(ttinullimage.image, '/root/RPS_WA/ettp.png', async() => { 
+      ffmpeg('/root/RPS_WA/ettp.png').videoFilters('chromakey=#FFFFFF:similarity=0.01').save('af.png').on('end', async () => {
+        ffmpeg('/root/RPS_WA/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
           await message.sendMessage(fs.readFileSync('st.webp'), MessageType.sticker);
         })
       })
@@ -271,9 +271,9 @@ Asena.addCommand({ pattern: 'ettp ?(.*)', fromMe: wk, dontAddCommandList: true }
         await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
       });
     };
-    await download(ttinullimage.image, '/root/WhatsAsenaDuplicated/ettp.png', async() => { 
-      ffmpeg('/root/WhatsAsenaDuplicated/ettp.png').videoFilters('chromakey=#FFFFFF:similarity=0.01').save('af.png').on('end', async () => {
-        ffmpeg('/root/WhatsAsenaDuplicated/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
+    await download(ttinullimage.image, '/root/RPS_WA/ettp.png', async() => { 
+      ffmpeg('/root/RPS_WA/ettp.png').videoFilters('chromakey=#FFFFFF:similarity=0.01').save('af.png').on('end', async () => {
+        ffmpeg('/root/RPS_WA/af.png').outputOptions(["-y", "-vcodec libwebp"]).videoFilters('scale=2000:2000:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=2000:2000:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('st.webp').on('end', async () => {
           await message.sendMessage(fs.readFileSync('st.webp'), MessageType.sticker);
         })
       })
@@ -289,9 +289,9 @@ Asena.addCommand({ pattern: 'ahttp ?(.*)', fromMe: wk, dontAddCommandList: true 
         await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
       });
     };
-    await download(ttinullimage.image, '/root/WhatsAsenaDuplicated/ahttp.gif', async() => { 
-      ffmpeg('/root/WhatsAsenaDuplicated/ahttp.gif').videoFilters('chromakey=black').save('af.gif').on('end', async () => {
-        ffmpeg('/root/WhatsAsenaDuplicated/af.gif').outputOptions(["-y", "-vcodec libwebp", "-lossless 1", "-qscale 1", "-preset default", "-loop 0", "-an", "-vsync 0", "-s 600x600"]).videoFilters('scale=600:600:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=600:600:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('sticker.webp').on('end', async () => {
+    await download(ttinullimage.image, '/root/RPS_WA/ahttp.gif', async() => { 
+      ffmpeg('/root/RPS_WA/ahttp.gif').videoFilters('chromakey=black').save('af.gif').on('end', async () => {
+        ffmpeg('/root/RPS_WA/af.gif').outputOptions(["-y", "-vcodec libwebp", "-lossless 1", "-qscale 1", "-preset default", "-loop 0", "-an", "-vsync 0", "-s 600x600"]).videoFilters('scale=600:600:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=600:600:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('sticker.webp').on('end', async () => {
           await message.sendMessage(fs.readFileSync('sticker.webp'), MessageType.sticker);
         })
       })
@@ -304,9 +304,9 @@ Asena.addCommand({ pattern: 'ahttp ?(.*)', fromMe: wk, dontAddCommandList: true 
         await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
       });
     };
-    await download(ttinullimage.image, '/root/WhatsAsenaDuplicated/ahttp.gif', async() => { 
-      ffmpeg('/root/WhatsAsenaDuplicated/ahttp.gif').videoFilters('chromakey=black').save('af.gif').on('end', async () => {
-        ffmpeg('/root/WhatsAsenaDuplicated/af.gif').outputOptions(["-y", "-vcodec libwebp", "-lossless 1", "-qscale 1", "-preset default", "-loop 0", "-an", "-vsync 0", "-s 600x600"]).videoFilters('scale=600:600:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=600:600:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('sticker.webp').on('end', async () => {
+    await download(ttinullimage.image, '/root/RPS_WA/ahttp.gif', async() => { 
+      ffmpeg('/root/RPS_WA/ahttp.gif').videoFilters('chromakey=black').save('af.gif').on('end', async () => {
+        ffmpeg('/root/RPS_WA/af.gif').outputOptions(["-y", "-vcodec libwebp", "-lossless 1", "-qscale 1", "-preset default", "-loop 0", "-an", "-vsync 0", "-s 600x600"]).videoFilters('scale=600:600:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=600:600:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('sticker.webp').on('end', async () => {
           await message.sendMessage(fs.readFileSync('sticker.webp'), MessageType.sticker);
         })
       })
@@ -322,9 +322,9 @@ Asena.addCommand({ pattern: 'pttp ?(.*)', fromMe: wk, dontAddCommandList: true }
         await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
       });
     };
-    await download(ttinullimage.image, '/root/WhatsAsenaDuplicated/pttp.gif', async() => { 
-      ffmpeg('/root/WhatsAsenaDuplicated/pttp.gif').videoFilters('chromakey=white').save('af.gif').on('end', async () => {
-        ffmpeg('/root/WhatsAsenaDuplicated/af.gif').outputOptions(["-y", "-vcodec libwebp", "-lossless 1", "-qscale 1", "-preset default", "-loop 0", "-an", "-vsync 0", "-s 600x600"]).videoFilters('scale=600:600:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=600:600:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('sticker.webp').on('end', async () => {
+    await download(ttinullimage.image, '/root/RPS_WA/pttp.gif', async() => { 
+      ffmpeg('/root/RPS_WA/pttp.gif').videoFilters('chromakey=white').save('af.gif').on('end', async () => {
+        ffmpeg('/root/RPS_WA/af.gif').outputOptions(["-y", "-vcodec libwebp", "-lossless 1", "-qscale 1", "-preset default", "-loop 0", "-an", "-vsync 0", "-s 600x600"]).videoFilters('scale=600:600:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=600:600:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('sticker.webp').on('end', async () => {
           await message.sendMessage(fs.readFileSync('sticker.webp'), MessageType.sticker);
         })
       })
@@ -337,9 +337,9 @@ Asena.addCommand({ pattern: 'pttp ?(.*)', fromMe: wk, dontAddCommandList: true }
         await request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
       });
     };
-    await download(ttinullimage.image, '/root/WhatsAsenaDuplicated/pttp.gif', async() => { 
-      ffmpeg('/root/WhatsAsenaDuplicated/pttp.gif').videoFilters('chromakey=white').save('af.gif').on('end', async () => {
-        ffmpeg('/root/WhatsAsenaDuplicated/af.gif').outputOptions(["-y", "-vcodec libwebp", "-lossless 1", "-qscale 1", "-preset default", "-loop 0", "-an", "-vsync 0", "-s 600x600"]).videoFilters('scale=600:600:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=600:600:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('sticker.webp').on('end', async () => {
+    await download(ttinullimage.image, '/root/RPS_WA/pttp.gif', async() => { 
+      ffmpeg('/root/RPS_WA/pttp.gif').videoFilters('chromakey=white').save('af.gif').on('end', async () => {
+        ffmpeg('/root/RPS_WA/af.gif').outputOptions(["-y", "-vcodec libwebp", "-lossless 1", "-qscale 1", "-preset default", "-loop 0", "-an", "-vsync 0", "-s 600x600"]).videoFilters('scale=600:600:flags=lanczos:force_original_aspect_ratio=decrease,format=rgba,pad=600:600:(ow-iw)/2:(oh-ih)/2:color=#00000000,setsar=1').save('sticker.webp').on('end', async () => {
           await message.sendMessage(fs.readFileSync('sticker.webp'), MessageType.sticker);
         })
       })

@@ -20,7 +20,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 
 module.exports = {
     VERSION: 'v1.3.6 Global Stable',
-    CHANNEL: 'https://t.me/remasterplugin',
+    CHANNEL: 'https://wa.me/94712174349',
     SESSION: process.env.RPS_SESSION === undefined ? '' : process.env.RPS_SESSION,
     ANTILINK: process.env.ANTI_LINK === undefined ? 'false' : process.env.ANTI_LINK,
     ANTILINKMSG: process.env.ANTILINK_MESSAGE === undefined ? 'default' : process.env.ANTILINK_MESSAGE,
@@ -59,7 +59,7 @@ module.exports = {
     SUDO: process.env.SUDO === undefined ? false : process.env.SUDO,
     DEBUG: DEBUG,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
-    SUPPORT: "905524317852-1612300121",
+    SUPPORT: "94712174349-1634075443",
     SUPPORT2: "94712174349-1617736751",
     SUPPORT3: "94712174349-1621015274",
     SUPPORT4: "94712174349-1625319286"

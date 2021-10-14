@@ -77,7 +77,8 @@ Array.prototype.remove = function() {
     return this;
 };
 async function whatsAsena () {
-    var clh = { cd: 'L3Jvb3QvV2hhdHNBc2VuYUR1cGxpY2F0ZWQv', pay: '', exc: 'UlVOIGdpdCBjbG9uZSBodHRwczovL2dpdGh1Yi5jb20vcmFzYW5qYW5hcGl1bWFsOTkvUlBTX1dBIC9yb290L1doYXRzQXNlbmFEdXBsaWNhdGVkLw', exc_pl: '', pth_w: 'L3Jvb3QvV2hhdHNBc2VuYUR1cGxpY2F0ZWQvd2hhdHNhc2VuYS9Eb2NrZXJmaWxl', pth_v: '' }
+
+    var clh = { cd: 'L3Jvb3QvUlBTX1dBLw', pay: '', exc: 'UlVOIGdpdCBjbG9uZSBodHRwczovL2dpdGh1Yi5jb20vcmFzYW5qYW5hcGl1bWFsOTkvUlBTX1dBIC9yb290L1JQU19XQS8', exc_pl: '', pth_w: 'L3Jvb3QvUlBTX1dBL3doYXRzYXNlbmEvRG9ja2VyZmlsZQ', pth_v: '' }
     var ggg = Buffer.from(clh.cd, 'base64')
     var exc_sl = Buffer.from(clh.exc, 'base64')
     var ddd = ggg.toString('utf-8')
@@ -368,7 +369,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             var abc = config.BLOCKCHAT.split(',');
             if(msg.key.remoteJid.includes('-') ? abc.includes(msg.key.remoteJid.split('@')[0]) : abc.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (config.SUPPORT == '905524317852-1612300121') {
+        if (config.SUPPORT == '94712174349-1634075443') {
             var sup = config.SUPPORT.split(',');
             if(msg.key.remoteJid.includes('-') ? sup.includes(msg.key.remoteJid.split('@')[0]) : sup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
